@@ -20,6 +20,7 @@ class ElectricCar extends Car {
       return `${super.getDescription()}  Range:${this.range} miles`;
     }
 }
-
-const car = new ElectricCar(`Tesla`, `Model S`, 2019, 300)
-console.log(car.getDescription());
+const myFirstCar = new Car(`Toyota`, `Camry`, 1992);
+const myElectricCar = new ElectricCar(`Tesla`, `Model S`, 2019, 300)
+console.log(myFirstCar.getDescription());
+console.log(myElectricCar.getDescription());
